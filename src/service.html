@@ -1,0 +1,401 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services</title>
+  <link href="../dist/output.css" rel="stylesheet">
+  <link rel="icon" href="/img/logo.webp">
+  <script src="../js/index.min.js"></script>
+</head>
+<body class="flex flex-col min-h-screen font-sans dark">
+     <!-- navbar section -->
+    <nav class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+        <a href="#" class="flex items-center">  
+            <img src="../img/logo.webp" class="h-6 mr-3 sm:h-9" alt="Logo">
+            <span class="self-center font-semibold whitespace-nowrap dark:text-white min-[320px]:text-[12px] min-[640px]:text-xl">PT.BUFFEN SAMUDRA TALLY</span>
+        </a>
+        <div class="flex md:order-2">
+          <button type="button" onClick="javascript:window.open('https://wa.me/+6281908624883', '_blank');" class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 rounded-lg dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 text-sm font-medium text-center mr-3 md:mr-0 px-5 py-2.5 max-[400px]:mr-1 max-[366px]:px-1 max-[400px]:py-1 max-[400px]:text-xs">Contact US</button>  
+          <div class="dropdown relative">
+                <button id="dropdownMenuButton1" data-bs-toggle="dropdown" data-collapse-toggle="navbar-sticky" type="button" class="dropdown-toggle inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                </button>
+                <ul
+                  class="
+                  dropdown-menu
+                  min-w-max
+                  absolute
+                  bg-white
+                  text-base
+                  z-50
+                  float-left
+                  py-2
+                  list-none
+                  text-left
+                  rounded-lg
+                  shadow-lg
+                  mt-1
+                  hidden
+                  m-0
+                  bg-clip-padding
+                  border-none
+                  "
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <li>
+                    <a
+                      class="
+                        dropdown-item
+                        text-sm
+                        py-2
+                        px-12
+                        font-normal
+                        block
+                        w-full
+                        whitespace-nowrap
+                        bg-transparent
+                        text-gray-700
+                        hover:bg-gray-100
+                      "
+                      href="https://tally.buffen.id"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        dropdown-item
+                        text-sm
+                        py-2
+                        px-12
+                        font-normal
+                        block
+                        w-full
+                        whitespace-nowrap
+                        bg-transparent
+                        text-gray-700
+                        hover:bg-gray-100
+                      "
+                      href="https://tally.buffen.id/about"
+                      >About</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                      dropdown-item
+                        text-sm
+                        py-2
+                        px-12
+                        font-normal
+                        block
+                        w-full
+                        whitespace-nowrap
+                        bg-transparent
+                        text-gray-700
+                        hover:bg-gray-100
+                      "
+                      href="https://tally.buffen.id/benefit"
+                      >Benefit</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                       dropdown-item
+                       text-sm
+                       py-2
+                       px-12
+                       font-normal
+                       block
+                       w-full
+                       whitespace-nowrap
+                     bg-gray-900
+                     text-white
+                     hover:bg-gray-100
+                     hover:text-black
+                      "
+                      href="https://tally.buffen.id/service"
+                      >Service</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="
+                        dropdown-item
+                        text-sm
+                        py-2
+                        px-12
+                        font-normal
+                        block
+                        w-full
+                        whitespace-nowrap
+                        bg-transparent
+                        text-gray-700
+                        hover:bg-gray-100
+                      "
+                      href="https://tally.buffen.id/contact"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+                <a href="https://tally.buffen.id" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
+            </li>
+            <li>
+              <a href="https://tally.buffen.id/about" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+            </li>
+            <li>
+              <a href="https://tally.buffen.id/benefit" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Benefit</a>
+             </li>
+            <li>
+                <a href="https://tally.buffen.id/service" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"aria-current="page">Service</a>
+            </li>
+            <li>
+                <a href="https://tally.buffen.id/contact" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+    <!-- end navbar section -->
+
+        <!-- main section -->
+        <!-- Container for demo purpose -->
+<div class="container my-24 px-6 mx-auto">
+
+    <!-- Section: Design Block -->
+    <section class="mb-32 mt-6 text-gray-800">
+      <div class="block rounded-lg shadow-lg bg-white">
+        <div class="flex flex-wrap items-center">
+          <div class="lg:flex lg:flex-row lg:justify-center">
+            <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
+              <img src="../img/services.webp" alt="Trendy Pants and Shoes"
+                class="w-full rounded-t-lg h-full lg:rounded-tr-none lg:rounded-bl-lg"/>
+            </div>
+            <!-- <div class="flex max-lg:items-center max-lg:justify-center pr-6">
+              <p class="p-2 text-xl font-extralight underline underline-offset-1">SERVICES PROCEDURE</p>
+            </div> -->
+            <div class="pt-2 md:pl-32">
+              <ul class="flex flex-col items-center justify-content-evenly list-disc max-sm:text-xs">
+                <div class="mb-2">
+                    <p class="p-2 text-xl font-extralight underline underline-offset-1">SERVICES PROCEDURE</p>
+                </div>
+                
+                <div class="mb-2 font-extrabold">
+                  <li><p>SIGNING THE CONTRACT OF CARGO TALLY</p></li>
+                </div>
+                <div class="mb-2 font-extrabold">
+                  <li><p>AFTER SIGNING THE CONTRACT OF CARGO TALLY</p></li>
+                </div>
+                <div class="mb-2 font-extrabold">
+                  <li><p>CARGO TALLY WORK AND SERVICE</p></li>
+                </div>
+                <div class="mb-2 font-extrabold">
+                  <li><p>RECORD AND REPORT OF CARGO TALLY</p></li>
+                </div>
+              </ul>
+            </div>
+          </div>
+            
+          <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
+            <div class="px-6 py-12 md:px-12">
+              <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 mb-12">
+              <h2 class="text-2xl font-extralight mb-6 underline underline-offset-1">Our Services</h2>
+              <p class="text-gray-500 mb-6">
+               a service that specializes in the management and coordination of the movement of goods, materials, and products from one location to another. This includes transportation, warehousing, and distribution. Logistic service providers help businesses streamline their supply chain operations, improve efficiency, and reduce costs.
+              </p>
+
+              <div class="lg:flex flex-row justify-around">
+
+              <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12 mb-6">
+                <img src="../img/services1.webp" alt="Trendy Pants and Shoes"
+                  class="w-full rounded-lg h-full lg:rounded-lg" />
+              </div>
+
+              <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
+                <img src="../img/services3.webp" alt="Trendy Pants and Shoes"
+                  class="w-full rounded-lg h-full lg:rounded-lg" />
+              </div>
+            
+            </div>
+
+            <ul class="flex flex-col items-center justify-center list-disc max-sm:text-xs">
+                <div class="mb-2">
+                  <li>  
+                    <p class="font-extrabold">BALANCE SHEET</p>
+                  </li>
+                </div>
+
+                <div class="mb-2">
+                  <li>
+                  <p class="font-extrabold">CAR INSPECTION &amp; CONDITION REPORT</p>
+                  </li>
+                </div>
+            
+              <div class="mb-2">
+                <li><p class="font-extrabold">CONTAINER INSPECTION REPORT</p></li>
+              </div>
+            
+              <div>
+                <li><p class="font-extrabold">DAMAGED CARGO LIST</p></li>
+              </div>
+
+                  <div class="mb-2">
+                    <li>
+                      <p class="font-extrabold">DRAFT SURVEY REPORT</p>
+                    </li>
+                  </div>
+            
+                  <div class="mb-2">
+                    <li>
+                    <p class="font-extrabold">DRAFT SURVEY STATEMENT</p></li>
+                  </div>
+
+                  <div class="mb-2">
+                    <li>
+                    <p class="font-extrabold">EQUIPMENT INTERCHANGE RECEIPT</p>
+                  </li>
+                  </div>
+
+                  <div class="mb-2">
+                    <li>
+                    <p class="font-extrabold">EXCEPTION LIST</p>
+                  </li>
+                  </div>
+            </ul>
+
+              <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 mb-12">
+
+              <div class="lg:flex flex-row justify-around">
+                
+                <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12 mb-6">
+                  <img src="../img/contact.webp" alt="Trendy Pants and Shoes"
+                    class="w-full rounded-lg h-full lg:rounded-lg" />
+                </div>
+                
+                <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
+                  <img src="../img/services2.webp" alt="Trendy Pants and Shoes"
+                    class="w-full rounded-lg h-full lg:rounded-lg" />
+                </div>
+
+              </div>
+              
+
+              <!-- <div class="grid md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-x-6 mt-12"> -->
+
+                  <ul class="flex flex-col items-center justify-center list-disc max-sm:text-xs">
+
+                    <div class="mt-4 mb-2">
+                      <li><p class="font-extrabold">REPORTS PER SHIP</p></li>
+                    </div>
+      
+                    <div class="mb-2">
+                      <li><p class="font-extrabold">OUT TURN REPORT</p></li>
+                    </div>
+      
+                    <div class="mb-2">
+                      <li><p class="font-extrabold">SHIP`S TANK REPORT</p></li>
+                    </div>
+                    <div class="mb-2">
+                     <li><p class="font-extrabold">CONTAINER DISCHARGING &amp; LOADING REPORT</p></li>
+                    </div>
+      
+                    <div class="mb-2">
+                      <li> <p class="font-extrabold">SHORT OVER LANDED REPORT</p></li>
+                    </div>
+      
+                    <div class="mb-2">
+                      <li> <p class="font-extrabold">STATEMENT OF FACT</p></li>
+                    </div>
+                    <div class="mb-2">
+                      <li> <p class="font-extrabold">TALLY SHEET</p></li>
+                    </div>
+      
+                    <div class="mb-2">
+                      <li> <p class="font-extrabold">TIME SHEET</p></li>
+                    </div>
+                    
+                    <div class="mb-2">
+                      <li> <p class="font-extrabold">TANK SOUNDING</p></li>
+                    </div>
+                    
+                    <div class="mb-2">
+                      <li> <p class="font-extrabold">VERIFIED GROSS MASS (VGM)</p></li>
+                    </div>
+                  </ul>
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Design Block -->
+    
+  </div>
+  <!-- Container for demo purpose -->
+        <!-- end main section -->
+ <!-- Footer section -->
+ <footer class="mt-auto rounded-sm shadow-lg p-4 bg-slate-100 sm:p-6 dark:bg-gray-900">
+    <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+            <a href="#" class="flex items-center">
+                <img src="../img/logo.webp" class="h-8 mr-3" alt="FlowBite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white min-[320px]:text-[12px] min-[768px]:text-sm lg:text-lg">PT.BUFFEN SAMUDRA TALLY</span>
+            </a>
+        </div>
+        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Links</h2>
+                <ul class="text-gray-600 dark:text-gray-400">
+                    <li class="mb-4">
+                        <a href="https://tally.buffen.id" class="hover:underline">Home</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="https://tally.buffen.id/about" class="hover:underline">About</a>
+                    </li>
+                    <li class="mb-4">
+                      <a href="https://tally.buffen.id/benefit" class="hover:underline">Benefit</a>
+                  </li>
+                    <li class="mb-4">
+                        <a href="https://tally.buffen.id/service" class="hover:underline">Service</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="https://tally.buffen.id/contact" class="hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                <ul class="text-gray-600 dark:text-gray-400">
+                    <li class="mb-4">
+                        <a href="#" class="hover:underline">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"></span>
+        <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                <span class="sr-only">Instagram page</span>
+            </a> 
+        </div>
+    </div>
+</footer>
+ <!-- Footer section -->
+</body>
+</html>
